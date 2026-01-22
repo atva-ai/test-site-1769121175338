@@ -1,0 +1,329 @@
+{
+  "deployment": {
+    "id": 20,
+    "company_id": 1,
+    "template_id": 1,
+    "subdomain": "test-site-1769121175338",
+    "custom_domain": null,
+    "status": "pending",
+    "deployment_url": null,
+    "github_repo_url": null,
+    "github_branch": "main",
+    "last_commit_hash": null,
+    "build_status": null,
+    "build_logs": null,
+    "last_build_at": null,
+    "page_views": 0,
+    "unique_visitors": 0,
+    "inquiries_received": 0,
+    "last_analytics_update": null,
+    "deployed_at": null,
+    "archived_at": null,
+    "created_at": "2026-01-22T17:02:56.209Z",
+    "updated_at": "2026-01-22T17:02:56.209Z"
+  },
+  "company": {
+    "id": 1,
+    "name": "Nutrigo Natura Agrotech Private Limited - Manufacturer of Indian Spices from Guwahati",
+    "slug": "nutrigo-natura-agrotech-private-limited-manufacturer-of-indian-spices-from-guwahati",
+    "industry": null,
+    "city": null,
+    "state": null,
+    "phone": null,
+    "email": null,
+    "whatsapp": null,
+    "address": null,
+    "gstin": null,
+    "yearEstablished": null,
+    "logo": "https://5.imimg.com/data5/SELLER/Logo/2024/4/408739181/RB/KX/XL/7719061/djjjssw-120x120.jpg",
+    "verificationBadges": null
+  },
+  "theme": {
+    "colors": {
+      "text": "#1a1a1a",
+      "error": "#dc3545",
+      "accent": "#ffd700",
+      "border": "#e0e0e0",
+      "primary": "#0066cc",
+      "success": "#28a745",
+      "secondary": "#ff6b35",
+      "textLight": "#666666",
+      "background": "#ffffff",
+      "backgroundAlt": "#f5f7fa"
+    },
+    "typography": {
+      "body": "Inter",
+      "sizes": {
+        "h1": "2.5rem",
+        "h2": "2rem",
+        "h3": "1.75rem",
+        "h4": "1.5rem",
+        "body": "1rem",
+        "small": "0.875rem"
+      },
+      "heading": "Poppins",
+      "weights": {
+        "bold": 700,
+        "light": 300,
+        "medium": 500,
+        "normal": 400,
+        "semibold": 600
+      }
+    },
+    "layout": {
+      "max_width": "1280px",
+      "footer_style": "multi_column",
+      "header_style": "sticky",
+      "header_height": "80px",
+      "section_spacing": "4rem",
+      "container_padding": "1rem",
+      "mobile_breakpoint": "768px"
+    }
+  },
+  "sections": [
+    {
+      "key": "header",
+      "name": "Header Navigation",
+      "type": "header",
+      "order": 1,
+      "component": null,
+      "props": {
+        "email": null,
+        "phone": null,
+        "logo_url": "https://5.imimg.com/data5/SELLER/Logo/2024/4/408739181/RB/KX/XL/7719061/djjjssw-120x120.jpg",
+        "whatsapp_number": null,
+        "config": {
+          "layout": "sticky",
+          "background": "white",
+          "navigation_items": [
+            "About",
+            "Products",
+            "Quality",
+            "Contact"
+          ],
+          "show_contact_info": true,
+          "show_whatsapp_button": true
+        },
+        "fallback": {
+          "hide_section": false,
+          "default_phone": null,
+          "use_company_name_as_logo": true
+        }
+      }
+    },
+    {
+      "key": "hero",
+      "name": "Hero Section",
+      "type": "hero",
+      "order": 2,
+      "component": null,
+      "props": {
+        "tagline": null,
+        "industry": null,
+        "hero_image": "https://5.imimg.com/data5/SELLER/Logo/2024/4/408739181/RB/KX/XL/7719061/djjjssw-120x120.jpg",
+        "business_type": "Wholesaler",
+        "verification_badges": null,
+        "config": {
+          "layout": "centered",
+          "show_cta": true,
+          "background": "gradient",
+          "show_stats": true,
+          "show_badges": true,
+          "gradient_colors": [
+            "#0066cc",
+            "#004c99"
+          ],
+          "primary_cta_text": "Get Quote",
+          "secondary_cta_text": "View Products"
+        },
+        "fallback": {
+          "hide_if_no_data": false,
+          "generate_tagline": true,
+          "use_gradient_background": true
+        }
+      }
+    },
+    {
+      "key": "about",
+      "name": "About Company",
+      "type": "content",
+      "order": 4,
+      "component": null,
+      "props": {
+        "city": null,
+        "state": null,
+        "owner_name": null,
+        "legal_status": null,
+        "about_section": null,
+        "business_type": "Wholesaler",
+        "year_established": null,
+        "config": {
+          "layout": "two_column",
+          "show_vision": true,
+          "show_mission": true,
+          "image_position": "right",
+          "show_read_more": true
+        },
+        "fallback": {
+          "hide_section": false,
+          "generate_content": true,
+          "use_template_content": true
+        }
+      }
+    },
+    {
+      "key": "why_choose_us",
+      "name": "Why Choose Us",
+      "type": "features",
+      "order": 5,
+      "component": null,
+      "props": {
+        "business_type": "Wholesaler",
+        "certifications": null,
+        "has_testing_lab": false,
+        "year_established": null,
+        "has_rd_facilities": false,
+        "config": {
+          "layout": "grid",
+          "columns": 3,
+          "icon_style": "colored",
+          "default_features": [
+            {
+              "icon": "CheckCircle",
+              "title": "Quality Assured",
+              "description": "Strict quality control measures"
+            },
+            {
+              "icon": "Clock",
+              "title": "Timely Delivery",
+              "description": "On-time delivery guaranteed"
+            },
+            {
+              "icon": "TrendingDown",
+              "title": "Competitive Pricing",
+              "description": "Best prices in the market"
+            },
+            {
+              "icon": "Headphones",
+              "title": "Customer Support",
+              "description": "24/7 customer assistance"
+            },
+            {
+              "icon": "Package",
+              "title": "Wide Range",
+              "description": "Extensive product portfolio"
+            },
+            {
+              "icon": "Users",
+              "title": "Expert Team",
+              "description": "Experienced professionals"
+            }
+          ]
+        },
+        "fallback": {
+          "use_default_features": true,
+          "customize_based_on_data": true
+        }
+      }
+    },
+    {
+      "key": "contact",
+      "name": "Get In Touch",
+      "type": "contact_form",
+      "order": 10,
+      "component": null,
+      "props": {
+        "city": null,
+        "email": null,
+        "phone": null,
+        "state": null,
+        "address": null,
+        "pincode": null,
+        "latitude": null,
+        "longitude": null,
+        "whatsapp_number": null,
+        "alternate_phones": null,
+        "config": {
+          "layout": "split",
+          "show_map": true,
+          "form_fields": [
+            "name",
+            "email",
+            "phone",
+            "product_interest",
+            "message"
+          ],
+          "show_inquiry_form": true,
+          "show_contact_details": true,
+          "show_whatsapp_quick_action": true
+        },
+        "fallback": {
+          "hide_section": false,
+          "show_email_only": false
+        }
+      }
+    },
+    {
+      "key": "footer",
+      "name": "Footer",
+      "type": "footer",
+      "order": 11,
+      "component": null,
+      "props": {
+        "city": null,
+        "email": null,
+        "gstin": null,
+        "phone": null,
+        "state": null,
+        "address": null,
+        "website": "www.google.co.in",
+        "config": {
+          "layout": "multi_column",
+          "copyright_text": "© {year} {company_name}. All Rights Reserved.",
+          "show_gst_number": true,
+          "show_quick_links": true,
+          "show_company_info": true,
+          "show_social_media": true
+        },
+        "fallback": {
+          "hide_section": false,
+          "use_minimal_footer": false
+        }
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "1769118827943",
+      "name": "Test Product",
+      "slug": null,
+      "image": null,
+      "images": null,
+      "description": null,
+      "price": null,
+      "moq": null,
+      "specifications": null
+    }
+  ],
+  "testimonials": [],
+  "seo": {
+    "title": "Nutrigo Natura Agrotech Private Limited - Manufacturer of Indian Spices from Guwahati - Wholesaler | {industry} in {city}",
+    "description": "Leading Wholesaler of {industry} products in {city}, {state}. Year Established: {year_established}. GST Verified. Contact us for quality products and competitive pricing.",
+    "keywords": []
+  },
+  "whatsapp": {
+    "enabled": true,
+    "number": null,
+    "messageTemplate": "Hi, I am interested in your products. Please share details."
+  },
+  "analytics": {
+    "googleAnalyticsId": null
+  },
+  "metadata": {
+    "score": 33,
+    "missingSections": [
+      "testimonials"
+    ],
+    "generatedContent": []
+  }
+}
